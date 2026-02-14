@@ -20,10 +20,11 @@ from process.cluster import ArticleCluster
 
 
 DEFAULT_WEIGHTS = {
-    "cluster_size": 0.40,
-    "source_diversity": 0.25,
-    "recency": 0.20,
-    "geo_spread": 0.15,
+    "keyword_relevance": 0.30,
+    "cluster_size": 0.30,
+    "source_diversity": 0.15,
+    "recency": 0.15,
+    "geo_spread": 0.10,
 }
 
 
@@ -47,9 +48,27 @@ def _parse_seendate(raw: str | None) -> datetime.datetime | None:
     return None
 
 
-def _compute_raw_signals(cluster: ArticleCluster, now: datetime.datetime) -> dict[str, float]:
+def _keyword_relevance(cluster: ArticleCluster, keywords: list[str]) -> float:
+    """Fraction of articles in the cluster whose title contains at least one keyword."""
+    if not keywords:
+        return 1.0
+    lower_keywords = [kw.lower() for kw in keywords]
+    matches = 0
+    for a in cluster.articles:
+        title_lower = a.title.lower()
+        if any(kw in title_lower for kw in lower_keywords):
+            matches += 1
+    return matches / len(cluster.articles) if cluster.articles else 0.0
+
+
+def _compute_raw_signals(
+    cluster: ArticleCluster, now: datetime.datetime, keywords: list[str] | None = None,
+) -> dict[str, float]:
     """Compute un-normalized signal values for a single cluster."""
     articles = cluster.articles
+
+    # 0. Keyword relevance
+    relevance = _keyword_relevance(cluster, keywords or [])
 
     # 1. Cluster size
     size = float(len(articles))
@@ -72,6 +91,7 @@ def _compute_raw_signals(cluster: ArticleCluster, now: datetime.datetime) -> dic
     geo = float(len(countries))
 
     return {
+        "keyword_relevance": relevance,
         "cluster_size": size,
         "source_diversity": diversity,
         "recency_hours_ago": hours_ago,
@@ -97,6 +117,7 @@ def score_clusters(
     *,
     weights: dict[str, float] | None = None,
     now: datetime.datetime | None = None,
+    keywords: list[str] | None = None,
 ) -> list[ScoredCluster]:
     """
     Score and rank clusters by composite trend importance.
@@ -110,9 +131,10 @@ def score_clusters(
     now = now or datetime.datetime.now()
 
     # Compute raw signals for every cluster
-    raw = [_compute_raw_signals(c, now) for c in clusters]
+    raw = [_compute_raw_signals(c, now, keywords) for c in clusters]
 
     # Extract per-signal lists and normalize
+    relevances = _normalize([r["keyword_relevance"] for r in raw])
     sizes = _normalize([r["cluster_size"] for r in raw])
     diversities = _normalize([r["source_diversity"] for r in raw])
     recencies = _normalize([r["recency_hours_ago"] for r in raw], invert=True)
@@ -121,6 +143,7 @@ def score_clusters(
     scored: list[ScoredCluster] = []
     for i, cluster in enumerate(clusters):
         signals = {
+            "keyword_relevance": relevances[i],
             "cluster_size": sizes[i],
             "source_diversity": diversities[i],
             "recency": recencies[i],

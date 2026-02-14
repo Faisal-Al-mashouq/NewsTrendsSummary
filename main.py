@@ -31,18 +31,29 @@ def _load_keywords() -> dict:
         return json.load(f)
 
 
-def _build_query(config: dict) -> str:
-    """Build a GDELT query string from keywords.json config."""
+def _build_queries(config: dict, *, max_query_len: int = 250) -> list[str]:
+    """Build GDELT query strings, splitting into batches to stay under API limits."""
     keywords = [entry["keyword"] for entry in config.get("query", [])]
-    phrases = [f'"{kw}"' for kw in keywords]
-    query = " OR ".join(phrases)
 
-    languages = [entry["keyword"] for entry in config.get("langeuage", [])]
-    if languages:
-        lang_filter = " OR ".join(f"sourcelang:{lang.lower()}" for lang in languages)
-        query = f"({query}) ({lang_filter})"
+    # GDELT doesn't support OR for sourcelang filters, so omit the filter
+    # entirely to get results in all languages matching the keywords
+    lang_suffix = ""
 
-    return query
+    # Split keywords into batches that fit within max_query_len
+    queries: list[str] = []
+    batch: list[str] = []
+    for kw in keywords:
+        phrase = f'"{kw}"'
+        candidate = "(" + " OR ".join(batch + [phrase]) + ")" + lang_suffix
+        if len(candidate) > max_query_len and batch:
+            queries.append("(" + " OR ".join(batch) + ")" + lang_suffix)
+            batch = [phrase]
+        else:
+            batch.append(phrase)
+    if batch:
+        queries.append("(" + " OR ".join(batch) + ")" + lang_suffix)
+
+    return queries
 
 
 def _article_to_dict(a: GDELTArticle) -> dict:
@@ -65,16 +76,23 @@ def main() -> int:
 
     # Load keywords from src/keywords.json
     config = _load_keywords()
-    query = _build_query(config)
-    print(f"Query: {query}", file=sys.stderr)
+    queries = _build_queries(config)
     print(f"Date range: {start_dt:%Y-%m-%d} → {end_dt:%Y-%m-%d}", file=sys.stderr)
+    print(f"Split into {len(queries)} query batches", file=sys.stderr)
 
-    # 1. Fetch
+    # 1. Fetch (batch queries to stay under GDELT's length limit)
     print("Fetching articles from GDELT...", file=sys.stderr)
-    articles, _ = fetch_gdelt_articles(
-        query=query, start_date=start_dt, end_date=end_dt,
-        max_records=100,
-    )
+    import time as _time
+    articles: list[GDELTArticle] = []
+    for i, query in enumerate(queries):
+        print(f"  Batch {i+1}/{len(queries)} ({len(query)} chars)...", file=sys.stderr)
+        batch_articles, _ = fetch_gdelt_articles(
+            query=query, start_date=start_dt, end_date=end_dt,
+            max_records=100,
+        )
+        articles.extend(batch_articles)
+        if i < len(queries) - 1:
+            _time.sleep(6)  # respect GDELT's 5-second rate limit
     _write_jsonl(outdir / "1_fetched.jsonl", articles)
     print(f"  → {len(articles)} articles fetched", file=sys.stderr)
 
@@ -99,7 +117,8 @@ def main() -> int:
     print(f"  → {len(clusters)} clusters formed", file=sys.stderr)
 
     # 4. Score
-    scored = score_clusters(clusters, now=end_dt)
+    keywords = [entry["keyword"] for entry in config.get("query", [])]
+    scored = score_clusters(clusters, now=end_dt, keywords=keywords)
     scored_out = [
         {
             "cluster_id": s.cluster.cluster_id,

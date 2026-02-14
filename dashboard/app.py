@@ -136,6 +136,7 @@ class Handler(SimpleHTTPRequestHandler):
 
 
 if __name__ == "__main__":
+    HTTPServer.allow_reuse_address = True
     PORT = 8050
     print(f"Dashboard → http://localhost:{PORT}")
     HTTPServer(("", PORT), Handler).serve_forever()

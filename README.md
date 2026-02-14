@@ -7,7 +7,7 @@ Automated news trend extraction and delivery pipeline. Fetches articles from the
 1. **Fetch** - Queries GDELT for articles matching keywords in `src/keywords.json` (past 7 days)
 2. **Dedupe** - Removes duplicates by URL canonicalization and title similarity
 3. **Cluster** - Groups articles using TF-IDF vectorization + agglomerative clustering
-4. **Score** - Ranks clusters by size, source diversity, recency, and geographic spread
+4. **Score** - Ranks clusters by keyword relevance, size, source diversity, recency, and geographic spread
 5. **Summarize** - Generates a top-10 trends report (JSON + plain text)
 6. **Deliver** - Sends an HTML-formatted email to configured recipients
 
@@ -46,7 +46,20 @@ python scheduler.py
 To run in the background:
 
 ```bash
-nohup python scheduler.py > scheduler.log 2>&1 &
+nohup uv run python scheduler.py > scheduler.log 2>&1 &
+```
+
+Check if the scheduler is running:
+
+```bash
+ps aux | grep 'scheduler.py' | grep -v grep
+```
+
+Stop the scheduler:
+
+```bash
+# Find the PID from the ps command above, then:
+kill <PID>
 ```
 
 ## Project Structure

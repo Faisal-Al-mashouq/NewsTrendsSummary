@@ -2,84 +2,86 @@
   NEWS TRENDS SUMMARY
 ============================================================
 
-#1  From AI to weight loss drugs , Super Bowl ads chase buzz
-    Score: 0.99  |  20 articles  |  20 sources
-    Countries: Australia, China, India, Ireland, Mexico, North Korea, Philippines, Russia, Trinidad and Tobago, United States
-    Date range: Feb 07, 2026
+#1  Anthropic hits a $380B valuation as it heightens competition with OpenAI
+    Score: 0.67  |  25 articles  |  25 sources
+    Countries: India, Japan, United States
+    Date range: Feb 13 – Feb 14, 2026
     Links:
-      - http://www.hawaiitelegraph.com/news/278851910/from-ai-to-weight-loss-drugs-super-bowl-ads-chase-buzz
-      - http://www.sydneysun.com/news/278851910/from-ai-to-weight-loss-drugs-super-bowl-ads-chase-buzz
-      - http://www.irishsun.com/news/278851910/from-ai-to-weight-loss-drugs-super-bowl-ads-chase-buzz
-      - http://www.mexicostar.com/news/278851910/from-ai-to-weight-loss-drugs-super-bowl-ads-chase-buzz
-      - http://www.philippinetimes.com/news/278851910/from-ai-to-weight-loss-drugs-super-bowl-ads-chase-buzz
+      - https://www.journalgazette.net/ap/business/anthropic-hits-a-380b-valuation-as-it-heightens-competition-with-openai/article_e373b189-2488-56e8-b417-03e32f79a566.html
+      - https://japantoday.com/category/tech/anthropic-hits-a-380b-valuation-as-it-heightens-competition-with-openai
+      - https://www.republicanherald.com/2026/02/12/anthropic-valuation/
+      - https://www.newsx.com/business/anthropic-ai-soars-to-380b-valuation-heightens-competition-with-openai-and-spacex-166030/
+      - https://www.dailylocal.com/2026/02/12/anthropic-valuation/
 
-#2  EV pullback costs Stellantis 27 billion euros , eclipses market value
-    Score: 0.86  |  16 articles  |  16 sources
-    Countries: Argentina, Australia, Bangladesh, China, Ireland, Mexico, Nepal, Philippines, Russia, Trinidad and Tobago, United States
-    Date range: Feb 07, 2026
+#2  Kelowna man guilty of drone interfering with helicopter during McDougall Creek wildfire
+    Score: 0.55  |  5 articles  |  5 sources
+    Countries: Canada
+    Date range: Feb 14, 2026
     Links:
-      - http://www.austinglobe.com/news/278853698/ev-pullback-costs-stellantis-27-billion-euros-eclipses-market-value
-      - http://www.argentinastar.com/news/278853698/ev-pullback-costs-stellantis-27-billion-euros-eclipses-market-value
-      - http://www.mexicostar.com/news/278853698/ev-pullback-costs-stellantis-27-billion-euros-eclipses-market-value
-      - http://www.nepalnational.com/news/278853698/ev-pullback-costs-stellantis-27-billion-euros-eclipses-market-value
-      - http://www.sydneysun.com/news/278853698/ev-pullback-costs-stellantis-27-billion-euros-eclipses-market-value
+      - https://caledoniacourier.com/2026/02/13/kelowna-man-guilty-of-drone-interfering-with-helicopter-during-mcdougall-creek-wildfire/
+      - https://agassizharrisonobserver.com/2026/02/13/kelowna-man-guilty-of-drone-interfering-with-helicopter-during-mcdougall-creek-wildfire/
+      - https://ladysmithchronicle.com/2026/02/13/kelowna-man-guilty-of-drone-interfering-with-helicopter-during-mcdougall-creek-wildfire/
+      - https://cranbrooktownsman.com/2026/02/13/kelowna-man-guilty-of-drone-interfering-with-helicopter-during-mcdougall-creek-wildfire/
+      - https://interior-news.com/2026/02/13/kelowna-man-guilty-of-drone-interfering-with-helicopter-during-mcdougall-creek-wildfire/
 
-#3  Facing artificial intelligence , let humanity set you apart
-    Score: 0.25  |  2 articles  |  2 sources
+#3  Proofpoint Purchases Startup Acuvity to Bolster AI Security
+    Score: 0.52  |  4 articles  |  2 sources
     Countries: United States
-    Date range: Feb 07, 2026
+    Date range: Feb 14, 2026
     Links:
-      - https://chippewa.com/news/state-regional/wisconsin/article_a6dfeb27-2fe9-59b1-ac6e-691007cf192f.html
-      - https://madison.com/news/local/education/university/article_908627c6-fa00-4c2c-8b80-1cf869e8c975.html
+      - https://www.govinfosecurity.com/proofpoint-purchases-startup-acuvity-to-bolster-ai-security-a-30758
+      - https://www.govinfosecurity.com/check-point-buys-3-startups-to-bolster-ai-security-a-30752
+      - https://www.bankinfosecurity.com/check-point-buys-3-startups-to-bolster-ai-security-a-30752
+      - https://www.bankinfosecurity.com/proofpoint-purchases-startup-acuvity-to-bolster-ai-security-a-30758
 
-#4  Outlook 2026 : With recent offerings , life insurance goes high - tech
-    Score: 0.25  |  2 articles  |  2 sources
+#4  Publicly Traded Blockchain Lender Figure Confirms Customer Data Breach
+    Score: 0.49  |  2 articles  |  2 sources
     Countries: United States
-    Date range: Feb 07, 2026
+    Date range: Feb 13 – Feb 14, 2026
     Links:
-      - https://insurancenewsnet.com/oarticle/outlook-2026-with-recent-offerings-life-insurance-goes-high-tech
-      - https://www.masslive.com/westernmass/2026/02/outlook-2026-with-recent-offerings-life-insurance-goes-high-tech.html
+      - https://finance.yahoo.com/news/publicly-traded-blockchain-lender-figure-000445678.html
+      - https://techcrunch.com/2026/02/13/fintech-lending-giant-figure-confirms-data-breach/
 
-#5  Dorsey Block cutting up to 10 % of staff in efficiency push
-    Score: 0.21  |  1 articles  |  1 sources
+#5  Earthquake of magnitude 4 . 2 strikes Pakistan
+    Score: 0.47  |  1 articles  |  1 sources
+    Countries: Syria
+    Date range: Feb 14, 2026
+    Links:
+      - http://www.arabherald.com/news/278867231/earthquake-of-magnitude-42-strikes-pakistan
+
+#6  Mayor Deegan urges Jacksonville families to be  educated and prepared  amid increased wildfire risks
+    Score: 0.47  |  1 articles  |  1 sources
     Countries: United States
-    Date range: Feb 07, 2026
+    Date range: Feb 14, 2026
     Links:
-      - https://fortune.com/2026/02/07/jack-dorsey-block-layoffs-10-percent-efficiency-push-square-app/
+      - https://www.firstcoastnews.com/article/news/local/mayor-urgers-wildfire-risk-and-preparedness-jacksonville/77-5a799481-e675-4427-a633-33e748ca4354
 
-#6  Meta nuclear bet is an endorsement of Trump energy vision * WorldNetDaily * by Anthony Watts , H . Sterling Burnett , Real Clear Wire
-    Score: 0.21  |  1 articles  |  1 sources
+#7  More YUGE economic news as inflation rate drops BIGLY
+    Score: 0.47  |  1 articles  |  1 sources
     Countries: United States
-    Date range: Feb 07, 2026
+    Date range: Feb 13, 2026
     Links:
-      - https://www.wnd.com/2026/02/metas-nuclear-bet-is-endorsement-trumps-energy-vision/
+      - https://www.theblaze.com/news/more-yuge-economic-news-as-inflation-rate-drops-bigly
 
-#7  Government to roll out Free Primary Healthcare in the first week of April
-    Score: 0.21  |  1 articles  |  1 sources
-    Countries: Ghana
-    Date range: Feb 07, 2026
+#8  AI security expert resigns and warns of global risk
+    Score: 0.47  |  1 articles  |  1 sources
+    Countries: Kosovo
+    Date range: Feb 13, 2026
     Links:
-      - https://www.myjoyonline.com/government-to-roll-out-free-primary-healthcare-in-the-first-week-of-april/
+      - https://www.gazetaexpress.com/en/US-security-expert-resigns-and-warns-of-global-risk/
 
-#8  Tecsun Science and Technology Shines at Greater Bay Area AI Summit , Jointly Building an Industrial Innovation Ecosystem
-    Score: 0.21  |  1 articles  |  1 sources
-    Countries: Philippines
-    Date range: Feb 07, 2026
-    Links:
-      - https://www.manilatimes.net/2026/02/08/tmt-newswire/media-outreach-newswire/tecsun-science-and-technology-shines-at-greater-bay-area-ai-summit-jointly-building-an-industrial-innovation-ecosystem/2273796
-
-#9  Spain , Portugal face fresh storms , torrential rain
-    Score: 0.21  |  1 articles  |  1 sources
+#9  January 2026 Inflation Rate
+    Score: 0.47  |  1 articles  |  1 sources
     Countries: United States
-    Date range: Feb 07, 2026
+    Date range: Feb 13, 2026
     Links:
-      - https://www.terradaily.com/afp/260207190013.p7n4luz4.html
+      - https://politicaldog101.com/tag/january-2026-inflation-rate/
 
-#10  Netflix Quietly Adds a Hidden Sci - Fi Gem Nobody Talks About
-    Score: 0.21  |  1 articles  |  1 sources
+#10  FinancialContent - Margin Pressures at Cisco Systems Drag Dow Lower as AI Infrastructure Costs Surge
+    Score: 0.46  |  1 articles  |  1 sources
     Countries: United States
-    Date range: Feb 07, 2026
+    Date range: Feb 13, 2026
     Links:
-      - https://comicbook.com/movies/news/netflix-quietly-adds-a-hidden-sci-fi-gem-nobody-talks-about/
+      - https://markets.financialcontent.com/stocks/article/marketminute-2026-2-13-margin-pressures-at-cisco-systems-drag-dow-lower-as-ai-infrastructure-costs-surge
 
 ============================================================

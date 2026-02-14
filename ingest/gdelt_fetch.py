@@ -102,6 +102,8 @@ def fetch_gdelt_articles(
 
                 text = response.text.strip()
                 if not text or not text.startswith("{"):
+                    if text:
+                        sys.stderr.write(f"GDELT non-JSON response: {text[:200]}\n")
                     return [], {}
                 # GDELT sometimes returns malformed JSON (trailing commas)
                 cleaned = re.sub(r",\s*([}\]])", r"\1", text)

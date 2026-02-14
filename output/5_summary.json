@@ -1,171 +1,156 @@
 [
   {
     "rank": 1,
-    "headline": "From AI to weight loss drugs , Super Bowl ads chase buzz",
-    "score": 0.9864,
-    "article_count": 20,
-    "source_count": 20,
+    "headline": "Anthropic hits a $380B valuation as it heightens competition with OpenAI",
+    "score": 0.672,
+    "article_count": 25,
+    "source_count": 25,
     "countries": [
-      "Australia",
-      "China",
       "India",
-      "Ireland",
-      "Mexico",
-      "North Korea",
-      "Philippines",
-      "Russia",
-      "Trinidad and Tobago",
+      "Japan",
       "United States"
     ],
-    "date_range": "Feb 07, 2026",
+    "date_range": "Feb 13 – Feb 14, 2026",
     "top_urls": [
-      "http://www.hawaiitelegraph.com/news/278851910/from-ai-to-weight-loss-drugs-super-bowl-ads-chase-buzz",
-      "http://www.sydneysun.com/news/278851910/from-ai-to-weight-loss-drugs-super-bowl-ads-chase-buzz",
-      "http://www.irishsun.com/news/278851910/from-ai-to-weight-loss-drugs-super-bowl-ads-chase-buzz",
-      "http://www.mexicostar.com/news/278851910/from-ai-to-weight-loss-drugs-super-bowl-ads-chase-buzz",
-      "http://www.philippinetimes.com/news/278851910/from-ai-to-weight-loss-drugs-super-bowl-ads-chase-buzz"
+      "https://www.journalgazette.net/ap/business/anthropic-hits-a-380b-valuation-as-it-heightens-competition-with-openai/article_e373b189-2488-56e8-b417-03e32f79a566.html",
+      "https://japantoday.com/category/tech/anthropic-hits-a-380b-valuation-as-it-heightens-competition-with-openai",
+      "https://www.republicanherald.com/2026/02/12/anthropic-valuation/",
+      "https://www.newsx.com/business/anthropic-ai-soars-to-380b-valuation-heightens-competition-with-openai-and-spacex-166030/",
+      "https://www.dailylocal.com/2026/02/12/anthropic-valuation/"
     ]
   },
   {
     "rank": 2,
-    "headline": "EV pullback costs Stellantis 27 billion euros , eclipses market value",
-    "score": 0.8632,
-    "article_count": 16,
-    "source_count": 16,
+    "headline": "Kelowna man guilty of drone interfering with helicopter during McDougall Creek wildfire",
+    "score": 0.5491,
+    "article_count": 5,
+    "source_count": 5,
     "countries": [
-      "Argentina",
-      "Australia",
-      "Bangladesh",
-      "China",
-      "Ireland",
-      "Mexico",
-      "Nepal",
-      "Philippines",
-      "Russia",
-      "Trinidad and Tobago",
-      "United States"
+      "Canada"
     ],
-    "date_range": "Feb 07, 2026",
+    "date_range": "Feb 14, 2026",
     "top_urls": [
-      "http://www.austinglobe.com/news/278853698/ev-pullback-costs-stellantis-27-billion-euros-eclipses-market-value",
-      "http://www.argentinastar.com/news/278853698/ev-pullback-costs-stellantis-27-billion-euros-eclipses-market-value",
-      "http://www.mexicostar.com/news/278853698/ev-pullback-costs-stellantis-27-billion-euros-eclipses-market-value",
-      "http://www.nepalnational.com/news/278853698/ev-pullback-costs-stellantis-27-billion-euros-eclipses-market-value",
-      "http://www.sydneysun.com/news/278853698/ev-pullback-costs-stellantis-27-billion-euros-eclipses-market-value"
+      "https://caledoniacourier.com/2026/02/13/kelowna-man-guilty-of-drone-interfering-with-helicopter-during-mcdougall-creek-wildfire/",
+      "https://agassizharrisonobserver.com/2026/02/13/kelowna-man-guilty-of-drone-interfering-with-helicopter-during-mcdougall-creek-wildfire/",
+      "https://ladysmithchronicle.com/2026/02/13/kelowna-man-guilty-of-drone-interfering-with-helicopter-during-mcdougall-creek-wildfire/",
+      "https://cranbrooktownsman.com/2026/02/13/kelowna-man-guilty-of-drone-interfering-with-helicopter-during-mcdougall-creek-wildfire/",
+      "https://interior-news.com/2026/02/13/kelowna-man-guilty-of-drone-interfering-with-helicopter-during-mcdougall-creek-wildfire/"
     ]
   },
   {
     "rank": 3,
-    "headline": "Facing artificial intelligence , let humanity set you apart",
-    "score": 0.2478,
-    "article_count": 2,
+    "headline": "Proofpoint Purchases Startup Acuvity to Bolster AI Security",
+    "score": 0.5157,
+    "article_count": 4,
     "source_count": 2,
     "countries": [
       "United States"
     ],
-    "date_range": "Feb 07, 2026",
+    "date_range": "Feb 14, 2026",
     "top_urls": [
-      "https://chippewa.com/news/state-regional/wisconsin/article_a6dfeb27-2fe9-59b1-ac6e-691007cf192f.html",
-      "https://madison.com/news/local/education/university/article_908627c6-fa00-4c2c-8b80-1cf869e8c975.html"
+      "https://www.govinfosecurity.com/proofpoint-purchases-startup-acuvity-to-bolster-ai-security-a-30758",
+      "https://www.govinfosecurity.com/check-point-buys-3-startups-to-bolster-ai-security-a-30752",
+      "https://www.bankinfosecurity.com/check-point-buys-3-startups-to-bolster-ai-security-a-30752",
+      "https://www.bankinfosecurity.com/proofpoint-purchases-startup-acuvity-to-bolster-ai-security-a-30758"
     ]
   },
   {
     "rank": 4,
-    "headline": "Outlook 2026 : With recent offerings , life insurance goes high - tech",
-    "score": 0.2478,
+    "headline": "Publicly Traded Blockchain Lender Figure Confirms Customer Data Breach",
+    "score": 0.4907,
     "article_count": 2,
     "source_count": 2,
     "countries": [
       "United States"
     ],
-    "date_range": "Feb 07, 2026",
+    "date_range": "Feb 13 – Feb 14, 2026",
     "top_urls": [
-      "https://insurancenewsnet.com/oarticle/outlook-2026-with-recent-offerings-life-insurance-goes-high-tech",
-      "https://www.masslive.com/westernmass/2026/02/outlook-2026-with-recent-offerings-life-insurance-goes-high-tech.html"
+      "https://finance.yahoo.com/news/publicly-traded-blockchain-lender-figure-000445678.html",
+      "https://techcrunch.com/2026/02/13/fintech-lending-giant-figure-confirms-data-breach/"
     ]
   },
   {
     "rank": 5,
-    "headline": "Dorsey Block cutting up to 10 % of staff in efficiency push",
-    "score": 0.2136,
+    "headline": "Earthquake of magnitude 4 . 2 strikes Pakistan",
+    "score": 0.475,
     "article_count": 1,
     "source_count": 1,
     "countries": [
-      "United States"
+      "Syria"
     ],
-    "date_range": "Feb 07, 2026",
+    "date_range": "Feb 14, 2026",
     "top_urls": [
-      "https://fortune.com/2026/02/07/jack-dorsey-block-layoffs-10-percent-efficiency-push-square-app/"
+      "http://www.arabherald.com/news/278867231/earthquake-of-magnitude-42-strikes-pakistan"
     ]
   },
   {
     "rank": 6,
-    "headline": "Meta nuclear bet is an endorsement of Trump energy vision * WorldNetDaily * by Anthony Watts , H . Sterling Burnett , Real Clear Wire",
-    "score": 0.2136,
+    "headline": "Mayor Deegan urges Jacksonville families to be  educated and prepared  amid increased wildfire risks",
+    "score": 0.4741,
     "article_count": 1,
     "source_count": 1,
     "countries": [
       "United States"
     ],
-    "date_range": "Feb 07, 2026",
+    "date_range": "Feb 14, 2026",
     "top_urls": [
-      "https://www.wnd.com/2026/02/metas-nuclear-bet-is-endorsement-trumps-energy-vision/"
+      "https://www.firstcoastnews.com/article/news/local/mayor-urgers-wildfire-risk-and-preparedness-jacksonville/77-5a799481-e675-4427-a633-33e748ca4354"
     ]
   },
   {
     "rank": 7,
-    "headline": "Government to roll out Free Primary Healthcare in the first week of April",
-    "score": 0.2136,
+    "headline": "More YUGE economic news as inflation rate drops BIGLY",
+    "score": 0.4698,
     "article_count": 1,
     "source_count": 1,
     "countries": [
-      "Ghana"
+      "United States"
     ],
-    "date_range": "Feb 07, 2026",
+    "date_range": "Feb 13, 2026",
     "top_urls": [
-      "https://www.myjoyonline.com/government-to-roll-out-free-primary-healthcare-in-the-first-week-of-april/"
+      "https://www.theblaze.com/news/more-yuge-economic-news-as-inflation-rate-drops-bigly"
     ]
   },
   {
     "rank": 8,
-    "headline": "Tecsun Science and Technology Shines at Greater Bay Area AI Summit , Jointly Building an Industrial Innovation Ecosystem",
-    "score": 0.2136,
+    "headline": "AI security expert resigns and warns of global risk",
+    "score": 0.4694,
     "article_count": 1,
     "source_count": 1,
     "countries": [
-      "Philippines"
+      "Kosovo"
     ],
-    "date_range": "Feb 07, 2026",
+    "date_range": "Feb 13, 2026",
     "top_urls": [
-      "https://www.manilatimes.net/2026/02/08/tmt-newswire/media-outreach-newswire/tecsun-science-and-technology-shines-at-greater-bay-area-ai-summit-jointly-building-an-industrial-innovation-ecosystem/2273796"
+      "https://www.gazetaexpress.com/en/US-security-expert-resigns-and-warns-of-global-risk/"
     ]
   },
   {
     "rank": 9,
-    "headline": "Spain , Portugal face fresh storms , torrential rain",
-    "score": 0.2136,
+    "headline": "January 2026 Inflation Rate",
+    "score": 0.4694,
     "article_count": 1,
     "source_count": 1,
     "countries": [
       "United States"
     ],
-    "date_range": "Feb 07, 2026",
+    "date_range": "Feb 13, 2026",
     "top_urls": [
-      "https://www.terradaily.com/afp/260207190013.p7n4luz4.html"
+      "https://politicaldog101.com/tag/january-2026-inflation-rate/"
     ]
   },
   {
     "rank": 10,
-    "headline": "Netflix Quietly Adds a Hidden Sci - Fi Gem Nobody Talks About",
-    "score": 0.2136,
+    "headline": "FinancialContent - Margin Pressures at Cisco Systems Drag Dow Lower as AI Infrastructure Costs Surge",
+    "score": 0.4595,
     "article_count": 1,
     "source_count": 1,
     "countries": [
       "United States"
     ],
-    "date_range": "Feb 07, 2026",
+    "date_range": "Feb 13, 2026",
     "top_urls": [
-      "https://comicbook.com/movies/news/netflix-quietly-adds-a-hidden-sci-fi-gem-nobody-talks-about/"
+      "https://markets.financialcontent.com/stocks/article/marketminute-2026-2-13-margin-pressures-at-cisco-systems-drag-dow-lower-as-ai-infrastructure-costs-surge"
     ]
   }
 ]

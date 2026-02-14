@@ -73,27 +73,27 @@
     {"keyword": "climate risk"}
   ],  
   "langeuage": [
-      {"keyword": "English"},
-      {"keyword": "Arabic"}
+    {"keyword": "English"},
+    {"keyword": "Arabic"}
   ],
   "country": [
-      {"keyword": "United States"},
-      {"keyword": "United Kingdom"},
-      {"keyword": "China"},
-      {"keyword": "United Arab Emirates"},
-      {"keyword": "Iran"},
-      {"keyword": "Israel"},
-      {"keyword": "Turkey"},
-      {"keyword": "Qatar"},
-      {"keyword": "Kuwait"},
-      {"keyword": "Bahrain"},
-      {"keyword": "Oman"},
-      {"keyword": "Egypt"},
-      {"keyword": "Jordan"},
-      {"keyword": "Lebanon"},
-      {"keyword": "Syria"},
-      {"keyword": "Yemen"},
-      {"keyword": "Iraq"},
-      {"keyword": "Saudi Arabia"}
+    {"keyword": "United States"},
+    {"keyword": "United Kingdom"},
+    {"keyword": "China"},
+    {"keyword": "United Arab Emirates"},
+    {"keyword": "Iran"},
+    {"keyword": "Israel"},
+    {"keyword": "Turkey"},
+    {"keyword": "Qatar"},
+    {"keyword": "Kuwait"},
+    {"keyword": "Bahrain"},
+    {"keyword": "Oman"},
+    {"keyword": "Egypt"},
+    {"keyword": "Jordan"},
+    {"keyword": "Lebanon"},
+    {"keyword": "Syria"},
+    {"keyword": "Yemen"},
+    {"keyword": "Iraq"},
+    {"keyword": "Saudi Arabia"}
   ]
 }
